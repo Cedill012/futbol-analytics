@@ -1,0 +1,55 @@
+partido,local,visitante,mercado,seleccion,momio_americano
+Toluca vs Atlas,Toluca,Atlas,1X2,local,-233
+Toluca vs Atlas,Toluca,Atlas,1X2,empate,370
+Toluca vs Atlas,Toluca,Atlas,1X2,visitante,580
+Toluca vs Atlas,Toluca,Atlas,ambos_anotan,si,-175
+Toluca vs Atlas,Toluca,Atlas,ambos_anotan,no,125
+Toluca vs Atlas,Toluca,Atlas,total_1.5,mas,-700
+Toluca vs Atlas,Toluca,Atlas,total_1.5,menos,450
+Toluca vs Atlas,Toluca,Atlas,total_2.5,mas,-223
+Toluca vs Atlas,Toluca,Atlas,total_2.5,menos,170
+Toluca vs Atlas,Toluca,Atlas,total_3.5,mas,110
+Toluca vs Atlas,Toluca,Atlas,total_3.5,menos,-143
+Toluca vs Atlas,Toluca,Atlas,doble_oportunidad,local_empate,-1000
+Toluca vs Atlas,Toluca,Atlas,doble_oportunidad,visitante_empate,175
+Toluca vs Atlas,Toluca,Atlas,goles_local_1.5,mas,-275
+Toluca vs Atlas,Toluca,Atlas,goles_local_1.5,menos,185
+Monterrey vs América,Monterrey,América,1X2,local,128
+Monterrey vs América,Monterrey,América,1X2,empate,240
+Monterrey vs América,Monterrey,América,1X2,visitante,205
+Monterrey vs América,Monterrey,América,ambos_anotan,si,-143
+Monterrey vs América,Monterrey,América,ambos_anotan,no,105
+Monterrey vs América,Monterrey,América,total_1.5,mas,-334
+Monterrey vs América,Monterrey,América,total_1.5,menos,245
+Monterrey vs América,Monterrey,América,total_2.5,mas,-112
+Monterrey vs América,Monterrey,América,total_2.5,menos,-115
+Monterrey vs América,Monterrey,América,total_3.5,mas,225
+Monterrey vs América,Monterrey,América,total_3.5,menos,-300
+Monterrey vs América,Monterrey,América,doble_oportunidad,local_empate,-275
+Monterrey vs América,Monterrey,América,doble_oportunidad,visitante_empate,-167
+Pachuca vs Chivas,Pachuca,Chivas,1X2,local,170
+Pachuca vs Chivas,Pachuca,Chivas,1X2,empate,240
+Pachuca vs Chivas,Pachuca,Chivas,1X2,visitante,152
+Pachuca vs Chivas,Pachuca,Chivas,ambos_anotan,si,-182
+Pachuca vs Chivas,Pachuca,Chivas,ambos_anotan,no,130
+Pachuca vs Chivas,Pachuca,Chivas,total_1.5,mas,-400
+Pachuca vs Chivas,Pachuca,Chivas,total_1.5,menos,295
+Pachuca vs Chivas,Pachuca,Chivas,total_2.5,mas,-143
+Pachuca vs Chivas,Pachuca,Chivas,total_2.5,menos,110
+Pachuca vs Chivas,Pachuca,Chivas,total_3.5,mas,175
+Pachuca vs Chivas,Pachuca,Chivas,total_3.5,menos,-225
+Pachuca vs Chivas,Pachuca,Chivas,doble_oportunidad,local_empate,-200
+Pachuca vs Chivas,Pachuca,Chivas,doble_oportunidad,visitante_empate,-223
+León vs Cruz Azul,León,Cruz Azul,1X2,local,225
+León vs Cruz Azul,León,Cruz Azul,1X2,empate,255
+León vs Cruz Azul,León,Cruz Azul,1X2,visitante,112
+León vs Cruz Azul,León,Cruz Azul,ambos_anotan,si,-175
+León vs Cruz Azul,León,Cruz Azul,ambos_anotan,no,125
+León vs Cruz Azul,León,Cruz Azul,total_1.5,mas,-450
+León vs Cruz Azul,León,Cruz Azul,total_1.5,menos,300
+León vs Cruz Azul,León,Cruz Azul,total_2.5,mas,-143
+León vs Cruz Azul,León,Cruz Azul,total_2.5,menos,110
+León vs Cruz Azul,León,Cruz Azul,total_3.5,mas,180
+León vs Cruz Azul,León,Cruz Azul,total_3.5,menos,-239
+León vs Cruz Azul,León,Cruz Azul,doble_oportunidad,local_empate,-143
+León vs Cruz Azul,León,Cruz Azul,doble_oportunidad,visitante_empate,-300

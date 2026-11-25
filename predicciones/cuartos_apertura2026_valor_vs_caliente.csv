@@ -1,0 +1,53 @@
+partido,mercado,seleccion,momio,prob_casa,prob_modelo,valor_esperado
+Toluca vs Atlas,total_1.5,menos,450,0.182,0.249,0.368
+Toluca vs Atlas,total_2.5,menos,170,0.37,0.494,0.333
+Toluca vs Atlas,total_3.5,menos,-143,0.588,0.714,0.213
+Toluca vs Atlas,ambos_anotan,no,125,0.444,0.518,0.166
+Toluca vs Atlas,1X2,visitante,580,0.147,0.167,0.135
+Monterrey vs América,1X2,visitante,205,0.328,0.366,0.116
+Pachuca vs Chivas,1X2,visitante,152,0.397,0.435,0.097
+Toluca vs Atlas,doble_oportunidad,visitante_empate,175,0.364,0.389,0.07
+Pachuca vs Chivas,ambos_anotan,no,130,0.435,0.456,0.049
+Toluca vs Atlas,1X2,empate,370,0.213,0.222,0.044
+Pachuca vs Chivas,total_2.5,menos,110,0.476,0.494,0.037
+León vs Cruz Azul,total_2.5,menos,110,0.476,0.494,0.037
+Pachuca vs Chivas,total_3.5,menos,-225,0.692,0.714,0.031
+León vs Cruz Azul,ambos_anotan,no,125,0.444,0.457,0.028
+León vs Cruz Azul,total_3.5,menos,-239,0.705,0.714,0.013
+Pachuca vs Chivas,doble_oportunidad,visitante_empate,-223,0.69,0.691,0.0
+Monterrey vs América,doble_oportunidad,visitante_empate,-167,0.625,0.624,-0.002
+León vs Cruz Azul,1X2,local,225,0.308,0.306,-0.005
+León vs Cruz Azul,total_1.5,menos,300,0.25,0.249,-0.005
+Pachuca vs Chivas,total_1.5,menos,295,0.253,0.249,-0.018
+Monterrey vs América,total_1.5,mas,-334,0.77,0.751,-0.024
+Monterrey vs América,total_2.5,mas,-112,0.528,0.506,-0.042
+León vs Cruz Azul,doble_oportunidad,local_empate,-143,0.588,0.561,-0.047
+Monterrey vs América,total_3.5,menos,-300,0.75,0.714,-0.048
+Pachuca vs Chivas,total_1.5,mas,-400,0.8,0.751,-0.061
+Monterrey vs América,ambos_anotan,si,-143,0.588,0.549,-0.068
+León vs Cruz Azul,1X2,visitante,112,0.472,0.439,-0.069
+Monterrey vs América,total_3.5,mas,225,0.308,0.286,-0.071
+Monterrey vs América,ambos_anotan,no,105,0.488,0.451,-0.075
+León vs Cruz Azul,doble_oportunidad,visitante_empate,-300,0.75,0.694,-0.075
+Monterrey vs América,total_2.5,menos,-115,0.535,0.494,-0.077
+León vs Cruz Azul,total_1.5,mas,-450,0.818,0.751,-0.082
+Toluca vs Atlas,doble_oportunidad,local_empate,-1000,0.909,0.833,-0.084
+León vs Cruz Azul,1X2,empate,255,0.282,0.255,-0.095
+Monterrey vs América,1X2,empate,240,0.294,0.258,-0.122
+Toluca vs Atlas,1X2,local,-233,0.7,0.611,-0.127
+Pachuca vs Chivas,1X2,empate,240,0.294,0.255,-0.132
+Monterrey vs América,doble_oportunidad,local_empate,-275,0.733,0.634,-0.135
+León vs Cruz Azul,total_2.5,mas,-143,0.588,0.506,-0.14
+Pachuca vs Chivas,total_2.5,mas,-143,0.588,0.506,-0.14
+Toluca vs Atlas,total_1.5,mas,-700,0.875,0.751,-0.141
+Monterrey vs América,total_1.5,menos,245,0.29,0.249,-0.142
+Monterrey vs América,1X2,local,128,0.439,0.376,-0.143
+León vs Cruz Azul,ambos_anotan,si,-175,0.636,0.543,-0.146
+Pachuca vs Chivas,doble_oportunidad,local_empate,-200,0.667,0.565,-0.153
+Pachuca vs Chivas,ambos_anotan,si,-182,0.645,0.544,-0.157
+Pachuca vs Chivas,1X2,local,170,0.37,0.309,-0.165
+León vs Cruz Azul,total_3.5,mas,180,0.357,0.286,-0.199
+Pachuca vs Chivas,total_3.5,mas,175,0.364,0.286,-0.214
+Toluca vs Atlas,ambos_anotan,si,-175,0.636,0.482,-0.243
+Toluca vs Atlas,total_2.5,mas,-223,0.69,0.506,-0.267
+Toluca vs Atlas,total_3.5,mas,110,0.476,0.286,-0.4

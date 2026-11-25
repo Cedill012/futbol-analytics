@@ -1,0 +1,44 @@
+import sys
+from pathlib import Path
+
+import pandas as pd
+import pytest
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
+
+from futbol import jugadores as jg  # noqa: E402
+from futbol import modelo_equipos as me  # noqa: E402
+
+
+def test_probabilidades_suman_uno():
+    p = me.probabilidades_partido("A", "B", 0.4)
+    assert p.gana_local + p.empate + p.gana_visitante == pytest.approx(1, abs=1e-6)
+
+
+def test_equipos_iguales_cancha_neutral_simetrico():
+    # Sin ventaja: quitar localía para comprobar simetría
+    lam_l, lam_v = me.lambdas(0.0)
+    assert lam_l == pytest.approx(lam_v)
+
+
+def test_serie_equipos_iguales_favorece_mejor_sembrado():
+    # Con equipos iguales, el desempate por tabla da > 50% al mejor sembrado
+    r = me.prob_avanza_serie(0.0)
+    assert r["avanza_mejor_sembrado"] > 0.5
+
+
+def test_momios():
+    assert me.americano_a_decimal(150) == pytest.approx(2.5)
+    assert me.americano_a_decimal(-200) == pytest.approx(1.5)
+
+
+def test_indice_jugadores_rango():
+    log = pd.DataFrame([
+        {"jugador": f"J{i}", "equipo": "X", "posicion": "DEL", "fecha": "2026-01-0" + str(k),
+         "minutos": 90, "goles": i % 3, "tiros_a_puerta": i, "regates_exitosos": 1,
+         "pases_clave": 1, "duelos_ganados": 2}
+        for i in range(1, 6) for k in range(1, 7)
+    ])
+    r = jg.ranking(log)
+    assert r["indice"].between(0, 100).all()
+    assert r.iloc[0]["jugador"] == "J5"
