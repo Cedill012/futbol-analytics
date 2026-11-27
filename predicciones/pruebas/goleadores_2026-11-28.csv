@@ -1,0 +1,50 @@
+partido,equipo,jugador,goles,minutos,goles_esperados_equipo,prob_anota
+América vs Monterrey,América,Henry Josué Martín,11,1165,1.8,0.369
+América vs Monterrey,América,Paul Brian Rodríguez,5,726,1.8,0.203
+América vs Monterrey,América,Miguel Ángel Borja,6,428,1.8,0.164
+América vs Monterrey,América,Oscar Andrés Perea,3,590,1.8,0.15
+América vs Monterrey,América,Alejandro Zendejas,2,550,1.8,0.114
+América vs Monterrey,América,Erick Daniel Sánchez,2,1114,1.8,0.098
+América vs Monterrey,América,Carlos Álvarez,1,513,1.8,0.073
+América vs Monterrey,América,Santiago Bueno,1,534,1.8,0.071
+América vs Monterrey,América,Raphael Cavalcante,1,589,1.8,0.068
+América vs Monterrey,América,Isaías Violante,1,646,1.8,0.064
+América vs Monterrey,América,Alejandro Cárdenas,1,140,1.8,0.06
+América vs Monterrey,América,Diego Arriaga,1,169,1.8,0.057
+América vs Monterrey,América,Kevin Álvarez,1,792,1.8,0.057
+América vs Monterrey,América,Cristian Borja,1,844,1.8,0.055
+América vs Monterrey,América,Ícaro Conceição,1,278,1.8,0.049
+América vs Monterrey,Monterrey,Lucas Ariel Ocampos,7,1172,1.4,0.261
+América vs Monterrey,Monterrey,Hugo Cuypers,6,1128,1.4,0.236
+América vs Monterrey,Monterrey,Diego Martín Rossi,6,1138,1.4,0.235
+América vs Monterrey,Monterrey,Luca Nicolás Orellano,3,780,1.4,0.13
+América vs Monterrey,Monterrey,Jesús Manuel Corona,2,872,1.4,0.089
+América vs Monterrey,Monterrey,Roberto Carlos de la Rosa,2,252,1.4,0.084
+América vs Monterrey,Monterrey,Orbelín Pineda,1,1048,1.4,0.063
+América vs Monterrey,Monterrey,César Garza,1,741,1.4,0.06
+América vs Monterrey,Monterrey,Jorge Rodríguez,1,446,1.4,0.04
+Atlas vs Toluca,Atlas,Florian Gonzalo De Jesús Monzón,5,1214,1.5,0.201
+Atlas vs Toluca,Atlas,Luis Andre Leite,5,1256,1.5,0.197
+Atlas vs Toluca,Atlas,Manuel Vicente Capasso,3,1001,1.5,0.151
+Atlas vs Toluca,Atlas,Ryan Yacine Mmaee,3,837,1.5,0.129
+Atlas vs Toluca,Atlas,Luis Henrique De Barros,2,519,1.5,0.123
+Atlas vs Toluca,Atlas,Kevin Andrés Zenón,2,582,1.5,0.116
+Atlas vs Toluca,Atlas,Elías Enrique Montiel,2,1132,1.5,0.102
+Atlas vs Toluca,Atlas,Edgar Zaldívar,2,767,1.5,0.099
+Atlas vs Toluca,Atlas,José Luis Martín,2,208,1.5,0.092
+Atlas vs Toluca,Atlas,Arturo González,1,595,1.5,0.071
+Atlas vs Toluca,Atlas,Juan Sánchez,1,894,1.5,0.055
+Atlas vs Toluca,Atlas,Víctor Ríos,1,375,1.5,0.045
+Atlas vs Toluca,Atlas,Aldo Rocha,1,489,1.5,0.04
+Atlas vs Toluca,Toluca,Federico Sebastián Viñas,8,822,1.79,0.294
+Atlas vs Toluca,Toluca,Joao Paulo Dias,6,784,1.79,0.24
+Atlas vs Toluca,Toluca,Helio Junio Nunes (Helinho),4,940,1.79,0.202
+Atlas vs Toluca,Toluca,Ernesto Alexis Vega,4,941,1.79,0.202
+Atlas vs Toluca,Toluca,Jesús Daniel Gallardo,2,1150,1.79,0.103
+Atlas vs Toluca,Toluca,Edgar López,1,58,1.79,0.074
+Atlas vs Toluca,Toluca,Erick Gutiérrez,1,567,1.79,0.074
+Atlas vs Toluca,Toluca,Oswaldo Virgen,1,82,1.79,0.071
+Atlas vs Toluca,Toluca,Everardo López,1,977,1.79,0.071
+Atlas vs Toluca,Toluca,Nicolás Castro,1,986,1.79,0.07
+Atlas vs Toluca,Toluca,Jesús Angulo,1,673,1.79,0.067
+Atlas vs Toluca,Toluca,Jorge Díaz,1,719,1.79,0.065

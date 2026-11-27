@@ -55,3 +55,15 @@ def test_v2_partido_abierto_espera_mas_goles():
     assert abierto > cerrado
     p = v2.probabilidades_v2(1.4, 1.1)
     assert abs(p["gana_local"] + p["empate"] + p["gana_visitante"] - 1) < 1e-6
+
+
+def test_dixon_coles_equipo_fuerte_favorito():
+    from futbol import dixon_coles as dc
+    loc, vis, gl, gv = [], [], [], []
+    for _ in range(20):
+        loc += ["Fuerte", "Debil"]; vis += ["Debil", "Fuerte"]; gl += [3, 0]; gv += [0, 2]
+    aj = dc.ajustar(loc, vis, gl, gv, [1.0] * len(loc), ridge=0.5)
+    m = aj.matriz("Fuerte", "Debil")
+    gana = sum(m[i][j] for i in range(dc.MAX_G) for j in range(dc.MAX_G) if i > j)
+    assert gana > 0.7
+    assert abs(sum(map(sum, m)) - 1) < 1e-9

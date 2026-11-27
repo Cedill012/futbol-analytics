@@ -1,0 +1,7 @@
+Partidos: 3769
+F_mezcla_C_D         Brier 0.2470   acierta el lado (más/menos 2.5): 54.1%
+E_mezcla_B_D         Brier 0.2474   acierta el lado (más/menos 2.5): 54.0%
+C_dc_recalibrado     Brier 0.2484   acierta el lado (más/menos 2.5): 54.6%
+B_dc                 Brier 0.2490   acierta el lado (más/menos 2.5): 53.2%
+D_mercado_1x2        Brier 0.2495   acierta el lado (más/menos 2.5): 53.6%
+A_liga               Brier 0.2509   acierta el lado (más/menos 2.5): 52.2%
