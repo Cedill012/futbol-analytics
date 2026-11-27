@@ -1,9 +1,9 @@
-etapa,local,visitante,goles_local,goles_visitante
-ida,Toluca,Atlas,,
-ida,Monterrey,América,,
-ida,Pachuca,Chivas,,
-ida,León,Cruz Azul,,
-vuelta,Atlas,Toluca,,
-vuelta,América,Monterrey,,
-vuelta,Chivas,Pachuca,,
-vuelta,Cruz Azul,León,,
+etapa,local,visitante,goles_local,goles_visitante,nota
+ida,Toluca,Atlas,2,0,Doblete de Helinho (uno de penal)
+ida,Monterrey,América,0,0,Expulsión de Ricardo Chávez (MTY) al minuto 10
+ida,Pachuca,Chivas,2,1,Doblete de Idrissi (expulsado al 93); Chivas abrió con autogol de Bauermann al 6
+ida,León,Cruz Azul,0,4,Doblete de Paradela; goles de Ibáñez y Toro Fernández; bajo lluvia intensa
+vuelta,Atlas,Toluca,,,
+vuelta,América,Monterrey,,,
+vuelta,Chivas,Pachuca,,,
+vuelta,Cruz Azul,León,,,

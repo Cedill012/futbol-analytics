@@ -27,6 +27,28 @@ El proyecto avanza por fases: **Liga MX → Premier League → Champions League*
 | América vs Monterrey | América **67.8%** |
 | Atlas vs Toluca | Toluca **65.0%** |
 
+## Seguimiento: ¿acertó el modelo?
+
+| Fecha | Partido | Predicción | Resultado | ¿Acertó? |
+|---|---|---|---|---|
+| 25/11 | Toluca vs Atlas (ida) | Toluca 61% | 2-0 | ✅ |
+| 25/11 | Monterrey vs América (ida) | Monterrey 38% / empate 26% | 0-0 | ❌ |
+
+Detalle y probabilidades actualizadas para la vuelta:
+[evaluación del 26/11](predicciones/2026-11-26_evaluacion_idas_miercoles.md).
+
+## Backtest: ¿le gana el modelo al mercado?
+
+Probé el modelo con **4,812 partidos de Liga MX (2012–2026)**, prediciendo cada uno solo con la información previa ([detalle](docs/backtest_2012_2026.md)).
+
+| Modelo | Log-verosimilitud 1X2 (más alto = mejor) | Brier "más de 2.5" (más bajo = mejor) | ROI apostando con EV > 5% |
+|---|---|---|---|
+| v1 (total de goles fijo) | −1.060 | 0.2500 | −8.7% |
+| **v2 (ataque y defensa, k=48)** | **−1.057** | **0.2487** | −9.3% |
+| Momios de cierre de Pinnacle | **−1.023** | — | — |
+
+**Conclusión honesta:** la v2 mejora un poco a la v1 y es la que se usa ahora. Ninguna de las dos le gana al mercado: cuando el modelo "ve valor", lo más probable es que se equivoque el modelo. Por eso las predicciones se publican como estadística descriptiva, no como recomendación de apuesta.
+
 ## Metodología (modelo de equipos v0.1)
 
 1. **Rating por equipo** (goles de ventaja por partido contra un rival promedio):
@@ -76,6 +98,7 @@ pytest
 ```
 
 ## Fuentes de datos
+- Resultados históricos y momios de cierre: [football-data.co.uk](https://www.football-data.co.uk/mexico.php) (`new/MEX.csv`)
 - Tabla general y cruces: medios deportivos mexicanos (El Imparcial, Excélsior, TUDN).
 - Historial directo: ESPN, TUDN y medios deportivos.
 - Momios: Caliente.mx (captura manual, 25/11/2026).

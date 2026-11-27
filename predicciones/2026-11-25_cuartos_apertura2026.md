@@ -40,8 +40,8 @@ Llenar después de cada partido en `resultados_cuartos_apertura2026.csv`.
 
 | Partido | Resultado | ¿Acertó el resultado (1X2) más probable? |
 |---|---|---|
-| Toluca vs Atlas (ida) | | |
-| Monterrey vs América (ida) | | |
+| Toluca vs Atlas (ida) | 2-0 | ✅ Sí (Toluca 61%; 2-0 era de los marcadores más probables) |
+| Monterrey vs América (ida) | 0-0 | ❌ No (favorito Monterrey 38%; empate 26%). Expulsión de MTY al minuto 10 |
 | Pachuca vs Chivas (ida) | | |
 | León vs Cruz Azul (ida) | | |
 | Atlas vs Toluca (vuelta) | | |

@@ -42,3 +42,16 @@ def test_indice_jugadores_rango():
     r = jg.ranking(log)
     assert r["indice"].between(0, 100).all()
     assert r.iloc[0]["jugador"] == "J5"
+
+
+def test_v2_partido_abierto_espera_mas_goles():
+    import pandas as pd
+    from futbol import modelo_v2 as v2
+    tabla = pd.DataFrame({"equipo": ["Goleador", "Muralla", "Promedio"], "pj": [17, 17, 17],
+                          "gf": [40, 15, 25], "gc": [35, 12, 25]})
+    mu, F = v2.fuerzas_desde_tabla(tabla)
+    abierto = sum(v2.lambdas_v2(mu, F, "Goleador", "Promedio", neutral=True))
+    cerrado = sum(v2.lambdas_v2(mu, F, "Muralla", "Promedio", neutral=True))
+    assert abierto > cerrado
+    p = v2.probabilidades_v2(1.4, 1.1)
+    assert abs(p["gana_local"] + p["empate"] + p["gana_visitante"] - 1) < 1e-6

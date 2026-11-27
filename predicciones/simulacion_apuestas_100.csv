@@ -1,0 +1,16 @@
+estrategia,partido,mercado,seleccion,momio,marcador,acerto,ganancia
+publicadas,Toluca vs Atlas,1X2,local,-233,2-0,True,42.92
+publicadas,Toluca vs Atlas,total_1.5,mas,-700,2-0,True,14.29
+publicadas,Toluca vs Atlas,total_2.5,menos,170,2-0,True,170.0
+publicadas,Toluca vs Atlas,ambos_anotan,no,125,2-0,True,125.0
+publicadas,Monterrey vs América,1X2,local,128,0-0,False,-100
+publicadas,Monterrey vs América,total_1.5,mas,-334,0-0,False,-100
+publicadas,Monterrey vs América,doble_oportunidad,visitante_empate,-167,0-0,True,59.88
+valor_positivo,Toluca vs Atlas,total_1.5,menos,450,2-0,False,-100
+valor_positivo,Toluca vs Atlas,total_2.5,menos,170,2-0,True,170.0
+valor_positivo,Toluca vs Atlas,total_3.5,menos,-143,2-0,True,69.93
+valor_positivo,Toluca vs Atlas,ambos_anotan,no,125,2-0,True,125.0
+valor_positivo,Toluca vs Atlas,1X2,visitante,580,2-0,False,-100
+valor_positivo,Monterrey vs América,1X2,visitante,205,0-0,False,-100
+valor_positivo,Toluca vs Atlas,doble_oportunidad,visitante_empate,175,2-0,False,-100
+valor_positivo,Toluca vs Atlas,1X2,empate,370,2-0,False,-100

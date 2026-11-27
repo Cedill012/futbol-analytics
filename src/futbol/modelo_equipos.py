@@ -179,3 +179,20 @@ def prob_implicita(momio: int) -> float:
 def valor_esperado(prob_modelo: float, momio: int) -> float:
     """Ganancia esperada por cada 1 apostado (0.05 = +5%)."""
     return prob_modelo * americano_a_decimal(momio) - 1
+
+
+def prob_avanza_tras_ida(ventaja_neutral_mejor: float, global_mejor_tras_ida: int) -> float:
+    """
+    Probabilidad de que el mejor sembrado avance, ya jugada la ida.
+    `global_mejor_tras_ida`: diferencia de goles del mejor sembrado después de la ida
+    (ej. -2 si perdió 2-0). La vuelta se juega en casa del mejor sembrado y el empate
+    global lo favorece.
+    """
+    lam_l, lam_v = lambdas(ventaja_neutral_mejor + VENTAJA_LOCAL)
+    m = matriz_marcadores(lam_l, lam_v)
+    return sum(
+        m[i][j]
+        for i in range(MAX_GOLES)
+        for j in range(MAX_GOLES)
+        if global_mejor_tras_ida + (i - j) >= 0
+    )
